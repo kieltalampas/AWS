@@ -6,13 +6,13 @@
 - Rows: 2000
 - Columns: [Id	Area	Bedrooms	Bathrooms	Floors	YearBuilt	Location	Condition	Garage	Price]
 
-## What I Did
+## Process
 - Uploaded CSV to S3 bucket
 - Created Athena table from S3 data
 - Ran SQL queries to explore the data
 
 
-## AWS Concepts Learned
+## AWS Concepts
 - S3 buckets store raw data
 - Athena reads directly from S3 without moving data
 - External tables point to S3 files
